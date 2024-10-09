@@ -14,6 +14,7 @@ const Grid = () => {
                 key={item.id} // React key to ensure uniqueness for each rendered item
                 title={item.title} // Passing title as a prop to BentoGridItem
                 description={item.description} // Passing description as a prop to BentoGridItem
+                className={item.className}
                 />
             ))}
         </BentoGrid>
