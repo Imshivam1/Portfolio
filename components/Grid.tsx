@@ -7,7 +7,7 @@ const Grid = () => {
     <section id='about'> {/* Section for the grid, identified by 'about' */}
         <BentoGrid> {/* BentoGrid serves as the container for the grid items */}
             {/* Mapping over the array of items to dynamically create grid elements */}
-            {[{ title :'Title 1', description : 'Desc1', id: '1'}].map((item) => (
+            {[{ title :'Title 1', description : 'Desc1', id: 1}].map((item) => (
                 <BentoGridItem 
                 id={item.id} // Each BentoGridItem gets a unique ID
                 key={item.id} // React key to ensure uniqueness for each rendered item
