@@ -23,6 +23,7 @@ This portfolio website is a responsive and dynamic platform to present my work a
 - **Projects**
 - **Skills**
 - **Contact Information**
+- **Languages**
 
 ## Features
 
