@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio Website
+
+Welcome to my personal portfolio website! This project showcases my skills, projects, and experiences in web development. It is built using modern technologies like **Next.js**, **React**, **Tailwind CSS**, and more.
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Features](#features)
+- [Technologies](#technologies)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Running the Project](#running-the-project)
+- [Scripts](#scripts)
+- [Folder Structure](#folder-structure)
+- [License](#license)
+- [Scripts](#Scripts)
+
+## Overview
+
+This portfolio website is a responsive and dynamic platform to present my work and expertise. It includes sections like:
+- **About Me**
+- **Projects**
+- **Skills**
+- **Contact Information**
+
+## Features
+
+- Responsive design with **Tailwind CSS**
+- Theme switcher (light/dark modes) using **Next Themes**
+- Smooth animations powered by **Framer Motion**
+- Modern UI components and icons using **React Icons**
+- Optimized performance using **Next.js**
+
+## Technologies
+
+This project is built with:
+
+- [Next.js](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [React Icons](https://react-icons.github.io/react-icons/)
+- [Typescript](https://www.typescriptlang.org/)
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Ensure you have **Node.js** and **npm** installed on your machine. You can download and install them from [Node.js](https://nodejs.org/).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Installation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Clone this repository:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+   ```bash
+   git clone https://github.com/Imshivam1/portfolio.git
+2. Navigate to the project directory:
+    cd portfolio
+3. Install the project dependencies:
+    npm install
+4. Running the Project
+    npm run dev 
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Scripts
+npm run dev: Starts the development server.
+npm run build: Builds the production version of the website.
+npm run start: Starts the production server after building the site.
+npm run lint: Runs ESLint to check for code issues.
