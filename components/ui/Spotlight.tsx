@@ -54,3 +54,4 @@ export const Spotlight = ({ className, fill }: SpotlightProps) => {
     </svg>
   );
 };
+//mixture of lights in the form of spotlight in intro section 
