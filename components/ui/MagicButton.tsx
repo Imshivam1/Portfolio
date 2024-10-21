@@ -13,7 +13,7 @@ const MagicButton = ({
         {title}
         {position === 'right' && icon}
         </span>
-    </button>
+    </button>//this is for the stylish button in the intro page
   )
 }
 
