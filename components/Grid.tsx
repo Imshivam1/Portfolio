@@ -16,6 +16,8 @@ const Grid = () => {
                 description={description} // Passing description as a prop to BentoGridItem
                 className={className}
                 img={img}
+                imgClassName={imgClassName}
+                spareImg={spareImg}
                 />
             ))}
         </BentoGrid>
