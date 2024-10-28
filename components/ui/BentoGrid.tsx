@@ -12,7 +12,7 @@ export const BentoGrid = ({
     <div
       className={cn(
         // Default classes for the grid layout
-        "grid md:auto-rows-[18rem] grid-cols-1 md:grid-cols-3 gap-4 max-w-7xl mx-auto ",
+        "grid grid-cols-1 md:grid-cols-6 lg:grid-cols-5 md:grid-row-7 gap-4 lg:gap-8 mx-auto",
         className // Merges the custom className passed via props
       )}
     >
@@ -51,10 +51,12 @@ export const BentoGridItem = ({
         className // Merges any custom className passed via props
       )}
       style={{
-        background: 'rgb(4,7,29)',
-        backgroundColor: 'gradient...'
+        background: "rgb(4,7,29)",
+        backgroundColor:
+          "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
       }}
     >
+      <div className={`${id=== 6} && 'flex justify-center`}></div>
       <div className="group-hover/bento:translate-x-2 transition duration-200">
         <div className="font-sans font-bold text-neutral-600 dark:text-neutral-200 mb-2 mt-2">
           {title} {/* Title of the grid item */}
