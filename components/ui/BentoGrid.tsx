@@ -1,4 +1,5 @@
 import { cn } from "@/lib/utils"; // Utility function to conditionally join class names
+import { BackgroundGradientAnimation } from "./GradientBg";
 
 // BentoGrid component to create a responsive grid layout
 export const BentoGrid = ({
@@ -56,7 +57,43 @@ export const BentoGridItem = ({
           "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
       }}
     >
-      <div className={`${id=== 6} && 'flex justify-center`}></div>
+      <div className={`${id=== 6} && 'flex justify-center'`}>
+        <div className="w-full h-full absolute">
+          {img && (
+            <img
+             src={img}
+             alt={img}
+             className={cn(imgClassName, "object-cover object-center ")}
+             />
+          )}
+        </div>
+        <div className={`absolute right-0 -bottom-5 ${id===5 && "w-full opacity-80"
+        }`}>
+          {spareImg && (
+            <img
+              src={spareImg}
+              alt={spareImg}
+              //   width={220}
+              className="object-cover object-center w-full h-full"
+            />
+          )}
+        </div>
+        {id===6 && (
+          <BackgroundGradientAnimation>
+            <div className="absolute z-50 items-center flex justify-center text-white font-bold"/>
+          </BackgroundGradientAnimation>
+        )}
+        
+        <div className={cn(
+          titleClassName,
+            "group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col px-5 p-5 lg:p-10"
+        )}>
+          <div className="font-sans font-extralight md:max-w-32 md:text-xs lg:text-base text-sm text-[#C1C2D3] z-10">
+            {description}
+          </div>
+        </div>
+      </div>
+
       <div className="group-hover/bento:translate-x-2 transition duration-200">
         <div className="font-sans font-bold text-neutral-600 dark:text-neutral-200 mb-2 mt-2">
           {title} {/* Title of the grid item */}
