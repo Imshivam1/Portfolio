@@ -27,7 +27,7 @@ const Hero = () => {
                 />
 
                 <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
-                    Hello, I&apos;m Shivam a Full-Stack Developer.
+                    Hello, I&apos;m Shivam a Full-Stack Developer .
                 </p>
                 <a href='#about'>
                     <MagicButton 
