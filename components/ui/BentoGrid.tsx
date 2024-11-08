@@ -1,5 +1,6 @@
 import { cn } from "@/lib/utils"; // Utility function to conditionally join class names
 import { BackgroundGradientAnimation } from "./GradientBg";
+import { GlobeDemo } from "./GridGlobe";
 
 // BentoGrid component to create a responsive grid layout
 export const BentoGrid = ({
@@ -95,6 +96,8 @@ export const BentoGridItem = ({
           {title}
         </div>
         </div>
+
+        {id == 2 && <GlobeDemo />}
       </div>
     </div>
   );
