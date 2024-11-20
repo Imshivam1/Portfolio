@@ -31,7 +31,7 @@ export const BentoGridItem = ({
   id,            // Required ID for each grid item, for uniqueness
   img,           //fOR EACH IMG
   imgClassName,
-  titleClassName,
+  titleClassName, //title classname
   spareImg,
 }: {
   className?: string;  // className is optional and expects a string
