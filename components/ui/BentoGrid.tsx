@@ -18,7 +18,7 @@ export const BentoGrid = ({
         className // Merges the custom className passed via props
       )}
     >
-      {children} {/* Render any child elements inside the grid */}
+      {children} {/* Render any child elements inside the grid how cool is that*/}
     </div>
   );
 };
