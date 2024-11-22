@@ -25,9 +25,9 @@ export const BentoGrid = ({
 
 // BentoGridItem component to create individual grid items
 export const BentoGridItem = ({
-  className,     // Optional className prop to style each item
-  title,         // The title for the grid item
-  description,   // Description for the grid item
+  className,     // Optional className prop to style each items
+  title,         // The title for the grid items
+  description,   // Description for the grid items
   id,            // Required ID for each grid item, for uniqueness
   img,           //fOR EACH IMG
   imgClassName,
