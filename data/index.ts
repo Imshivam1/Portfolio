@@ -84,7 +84,7 @@ export const navItems = [
       des: "Simplify your video conferencing experience with this app. Seamlessly connect with colleagues and friends.",
       img: "/p2.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/zoom-clone",
+      link: "https://github.com/imshivam1",
     },
     {
       id: 3,
