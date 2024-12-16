@@ -180,8 +180,8 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+      title: "Web App - JobShop",
+      desc: "Designed and developed web app for both mobile and web platforms using basic tools both backend and frontend.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp2.svg",
     },
