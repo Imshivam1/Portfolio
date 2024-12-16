@@ -194,7 +194,7 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "Juniour FUllstack Developer",
+      title: "Juniour Fullstack Developer",
       desc: "Developed and maintained user-facing features using modern frontend technologies.",
       className: "md:col-span-2",
       thumbnail: "/exp4.svg",
