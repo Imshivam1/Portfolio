@@ -1,6 +1,7 @@
 import { cn } from "@/lib/utils"; // Utility function to conditionally join class names
 import { BackgroundGradientAnimation } from "./GradientBg";
 import { GlobeDemo } from "./GridGlobe";
+import Lottie from "react-lottie";
 
 // BentoGrid component to create a responsive grid layout
 export const BentoGrid = ({
@@ -117,6 +118,13 @@ export const BentoGridItem = ({
               </div>
             </div>
         )}
+        {id === 6 && (
+          <div className="mt-5 relative">
+            <div className={`absolute -bottom-5 right-60`}>
+        )}
+        <Lottie options ={{
+          loop
+        }} />
       </div>
     </div>
     </div>
