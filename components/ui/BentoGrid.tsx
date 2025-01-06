@@ -7,7 +7,7 @@ import { BackgroundGradientAnimation } from "./GradientBg";
 import { GlobeDemo } from "./GridGlobe";
 import animationData from "@/data/confetti.json";
 import Lottie from "react-lottie";
-import MagicButton from "../Magicbutton";
+import MagicButton from "../MagicButton";
 
 // BentoGrid component to create a responsive grid layout
 export const BentoGrid = ({
