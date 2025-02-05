@@ -55,3 +55,4 @@ export const Spotlight = ({ className, fill }: SpotlightProps) => {
   );
 };
 //mixture of lights in the form of spotlight in intro section 
+//change the colours to your taste for better spotlighting effects
